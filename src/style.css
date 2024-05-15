@@ -8,4 +8,69 @@
   font-size: 16px;
   font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
   font-weight: normal;
+  background-color: rgb(128, 128, 128, 0.1);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 30%;
+  gap: 30px;
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  min-width: 400px;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 12ch;
+  margin: 0 auto;
+  background-color: rgba(42, 168, 226, 0.6);
+  text-align: center;
+  padding: 0.4rem 2rem;
+  border-radius: 0.7rem;
+  color: white;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 0.7rem;
+  outline: none;
+  border: 1px gray solid;
+}
+
+input:valid {
+  border: 1px green solid;
+}
+
+input:invalid {
+  border: 1px red solid;
 }

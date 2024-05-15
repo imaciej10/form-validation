@@ -3,7 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Form validation</title>
   </head>
-  <body></body>
+  <body>
+    <form novalidate class="form" action="results.html" method="POST">
+      <h1>Register</h1>
+      <div class="input-control">
+        <label for="email">E-mail</label
+        ><input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="frank16@gmail.com"
+          required
+        />
+      </div>
+      <div class="input-control">
+        <label for="country">Country</label
+        ><input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Argentina"
+          required
+        />
+      </div>
+      <div class="input-control">
+        <label for="zip Code">ZIP Code</label
+        ><input
+          type="text"
+          name="zipCode"
+          id="zipCode"
+          placeholder="50250"
+          required
+        />
+      </div>
+      <div class="input-control">
+        <label for="password">Password</label
+        ><input type="text" name="password" id="password" required />
+      </div>
+      <div class="input-control">
+        <label for="password2">Confirm password</label
+        ><input type="text" name="password2" id="password2" required />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
