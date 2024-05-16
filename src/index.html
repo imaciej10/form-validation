@@ -17,6 +17,7 @@
           placeholder="frank16@gmail.com"
           required
         />
+        <div class="error"></div>
       </div>
       <div class="input-control">
         <label for="country">Country</label
@@ -27,6 +28,7 @@
           placeholder="Argentina"
           required
         />
+        <div class="error"></div>
       </div>
       <div class="input-control">
         <label for="zip Code">ZIP Code</label
@@ -35,16 +37,32 @@
           name="zipCode"
           id="zipCode"
           placeholder="50250"
+          maxlength="8"
           required
         />
+        <div class="error"></div>
       </div>
       <div class="input-control">
         <label for="password">Password</label
-        ><input type="text" name="password" id="password" required />
+        ><input
+          type="text"
+          name="password"
+          id="password"
+          minlength="8"
+          required
+        />
+        <div class="error"></div>
       </div>
       <div class="input-control">
         <label for="password2">Confirm password</label
-        ><input type="text" name="password2" id="password2" required />
+        ><input
+          type="text"
+          name="password2"
+          id="password2"
+          minlength="8"
+          required
+        />
+        <div class="error"></div>
       </div>
       <button type="submit">Submit</button>
     </form>

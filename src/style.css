@@ -6,7 +6,8 @@
 
 :root {
   font-size: 16px;
-  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052,
+    serif;
   font-weight: normal;
   background-color: rgb(128, 128, 128, 0.1);
 }
@@ -22,7 +23,8 @@ body {
 
 .form {
   display: flex;
-  background-color: aliceblue;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
   flex-direction: column;
   align-items: center;
   height: auto;
@@ -65,12 +67,13 @@ input {
   border-radius: 0.7rem;
   outline: none;
   border: 1px gray solid;
+  display: block;
 }
 
-input:valid {
-  border: 1px green solid;
+.invalid {
+  border: 2px red solid;
 }
 
-input:invalid {
-  border: 1px red solid;
+.valid {
+  border: 2px green solid;
 }
