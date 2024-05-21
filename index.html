@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+  </head>
+  <body>
+    <form novalidate class="form" action="results.html" method="POST">
+      <h1>Register</h1>
+      <div class="input-control">
+        <label for="email">E-mail</label
+        ><input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="frank16@gmail.com"
+          required
+        />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="country">Country</label
+        ><input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Argentina"
+          required
+        />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="zip Code">ZIP Code</label
+        ><input
+          type="text"
+          name="zipCode"
+          id="zipCode"
+          placeholder="50250"
+          maxlength="8"
+          required
+        />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password">Password</label
+        ><input
+          type="text"
+          name="password"
+          id="password"
+          minlength="8"
+          required
+        />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password2">Confirm password</label
+        ><input
+          type="text"
+          name="password2"
+          id="password2"
+          minlength="8"
+          required
+        />
+        <div class="error"></div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  <script defer src="index.bundle.js"></script><script defer src="main.bundle.js"></script></body>
+</html>
