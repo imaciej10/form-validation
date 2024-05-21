@@ -1,0 +1,35 @@
+[33mcommit 7ac1703d3b6170860b6c21f426953472182d0289[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: imaciej10 <irlik.maciej95@gmail.com>
+Date:   Tue May 21 17:30:11 2024 +0200
+
+    Initial dist subtree commit
+
+[33mcommit d554b768b335cd34a83226fc486e133994d1c0a8[m
+Author: imaciej10 <irlik.maciej95@gmail.com>
+Date:   Tue May 21 17:22:10 2024 +0200
+
+    Initial dist subtree commit
+
+[33mcommit 3318cca8a57fd2825502a4432c69adda006d5676[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: imaciej10 <irlik.maciej95@gmail.com>
+Date:   Tue May 21 17:19:05 2024 +0200
+
+    Fix country regEx bug
+
+[33mcommit 6fd67ff1d63d06b1fee96ee50406f46b5afac65a[m
+Author: imaciej10 <irlik.maciej95@gmail.com>
+Date:   Thu May 16 12:43:41 2024 +0200
+
+    Add js validation and styling
+
+[33mcommit 64b18d7b14753b50efb34265a4db6e8db963673b[m
+Author: imaciej10 <irlik.maciej95@gmail.com>
+Date:   Wed May 15 14:31:12 2024 +0200
+
+    add basic form with styling
+
+[33mcommit 0869294c23efefd62aaf40ebc3f24d94f7533b4c[m
+Author: imaciej10 <160747504+imaciej10@users.noreply.github.com>
+Date:   Wed May 15 12:43:41 2024 +0200
+
+    Initial commit
