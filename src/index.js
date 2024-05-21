@@ -21,7 +21,7 @@ const inputFields = [
   {
     name: "country",
     fieldElement: country,
-    pattern: /([A-Za-z]){3,}\s?[A-Za-z]{3,}\w+/,
+    pattern: /([A-Za-z]){4,}\s?([A-Za-z]{3,})?/,
     min: 4,
     max: 20,
   },
